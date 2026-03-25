@@ -10,4 +10,4 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   nfs:
     path: /var/nfs/general/retail-mysql
-    server: 13.235.134.10
+    server: 10.0.1.99
