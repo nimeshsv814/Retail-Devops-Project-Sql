@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: nfs-storageclass
+provisioner: cluster.local/nfs-subdir-external-provisioner
+# parameters:
+#   server: 13.235.134.10
+#   path: /var/nfs/general/retail-mysql
+#   readOnly: "false"
