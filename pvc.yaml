@@ -9,4 +9,4 @@ spec:
   resources:
     requests:
       storage: "5Gi"
-  StorageClass: nfs-storageclass
+  storageClass: nfs-storageclass
