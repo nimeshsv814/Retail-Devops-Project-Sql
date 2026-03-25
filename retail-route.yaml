@@ -6,12 +6,12 @@ metadata:
  
 spec:
   parentRefs:
-    - name: kgateway-fitness
+    - name: kgateway-1
   rules: #path based routing
     - matches:
       - path:
           type: PathPrefix
-          value: /retail
+          value: /
       filters:
         - type: URLRewrite
           urlRewrite:
